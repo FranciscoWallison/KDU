@@ -143,6 +143,7 @@ BOOL WINAPI DllMain(
     return TRUE;
 }
 
+
 #else
 
 #define TEXT_SECTION ".text"
@@ -243,7 +244,7 @@ VOID UnlockCheatEngineDriver(
 
 }
 
-#pragma comment(linker, "/ENTRY:DllMainUnlockDBK")
+//#pragma comment(linker, "/ENTRY:DllMainUnlockDBK")
 
 /*
 * DllMainUnlockDBK

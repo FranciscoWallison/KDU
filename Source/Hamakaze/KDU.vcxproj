@@ -255,6 +255,11 @@
   <ItemGroup>
     <MASM Include="shellmasm.asm" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tanikaze\Tanikaze.vcxproj">
+      <Project>{072f189a-cea9-4ca8-a0fa-1257a7524a8e}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />

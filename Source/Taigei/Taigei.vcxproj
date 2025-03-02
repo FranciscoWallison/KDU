@@ -344,6 +344,14 @@
   <ItemGroup>
     <None Include="export.def" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hamakaze\KDU.vcxproj">
+      <Project>{46c8fb0f-c8bf-4932-b84c-a10b38904728}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Tanikaze\Tanikaze.vcxproj">
+      <Project>{072f189a-cea9-4ca8-a0fa-1257a7524a8e}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
